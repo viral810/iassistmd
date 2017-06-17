@@ -20,6 +20,7 @@ github_username: jekyll
 sass:
   sass_dir: _sass
 markdown: kramdown
+permalink: pretty
 gems:
 - jekyll-feed
 exclude:
