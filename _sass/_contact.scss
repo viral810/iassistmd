@@ -1,0 +1,151 @@
+#contact .container{
+    text-align: center;
+}
+
+#contact .inner_pg_title{
+    padding-bottom: 150px;
+}
+.contact__us{
+    display: inline-block;
+    width: 100%;
+    max-width: 992px;
+    padding: 80px;
+    background-color: $white;
+    box-shadow: 0px 5px 38px 0px rgba(0, 0, 0, 0.16);
+    border-radius: 6px;
+    margin-top: -75px;
+    text-align: left;
+
+    .left{
+        display: inline-block;
+        max-width: 420px;
+    }
+
+    h2{
+        font-size: 23px;
+        font-weight: 500;
+        color: $darkgray;
+    }
+
+    h3{
+        color: $gray;
+        font-size: 17px;
+        font-weight: 400;
+        margin: 20px 0;
+    }
+
+    p, a:not(.green__button){
+        color: $lightgray;
+        font-size: 17px;
+        line-height: 1.8;
+        display: block;
+        margin: 20px 0;
+        transition: all .3s linear;
+
+        &:hover{
+            text-decoration: none;
+            color: $darkblue;
+        }
+    }
+
+    a.call{
+        color: $blue;
+
+        .glyphicon{
+            color: $darkgray;
+        }
+    }
+
+    .green__button{
+        margin: 20px 0 40px;
+    }
+
+    .map__container{
+        display: inline-flex;
+        width: 100%;
+    }
+
+    .map__container iframe{
+        width: 100%;
+        border-radius: 6px;
+        border: 1px solid $white;
+    }
+
+    .contact__form{
+        display: inline-block;
+        vertical-align: top;
+    }
+}
+
+
+#contact__form{
+    display: inline-block;
+    width: 100%;
+    max-width: 400px;
+    margin-left: 80px;
+
+    p{
+        font-size: 15px;
+    }
+
+    label{
+        display: none;
+    }
+
+    .input-group{
+        display: inline-block;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    input, textarea{
+        display: inline-block;
+        width: 100%;
+        border-style: solid;
+        border-width: 2px;
+        border-color: rgb(233, 233, 233);
+        border-radius: 3px;
+        padding-left: 15px;
+        font-size: 15px;
+        color: $lightgray;
+        height: 50px;
+        line-height: 50px;
+        text-align: left;
+        box-shadow: none;
+        
+        &:focus, &:active{
+            outline: none;
+            border-color: $green;
+        }
+    }
+
+    textarea{
+        height: auto;
+        line-height: 2;
+    }
+
+    #submit{
+        color: $white;
+        text-align: center;
+        border: 0;
+    }
+
+}
+
+@media all and (max-width: 992px) {
+    #contact__form{
+        margin-left: 0;
+    }
+
+    .contact__us{
+        padding: 30px 20px;
+
+        h2{
+            font-size: 17px;
+        }
+
+        h3, a{
+            font-size: 14px;
+        }
+    }
+}

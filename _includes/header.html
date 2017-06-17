@@ -1,0 +1,28 @@
+<nav class="navbar navbar-default header clearfix" id="header">
+      <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  </button>
+                  <a class="navbar-brand" href="/" id="logo"><img src="/images/logo.png" alt="iAssistMD" /></a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                  <ul class="nav navbar-nav">
+                        {% assign current = page.url | downcase | split: '/' %}
+                        <li {% if page.name contains 'index' %}class='active'{% endif %}><a href="/">Home</a></li>
+                        <li {% if page.name contains 'about' %}class='active'{% endif %}><a href="/about">About Us</a></li>
+                        <li {% if page.name contains 'service' %}class='active'{% endif %}><a href="/services">Services</a></li>
+                        <li {% if page.name contains 'consult' %}class='active'{% endif %}><a href="/consulting">Consulting</a></li>
+                        <li {% if page.name contains 'contact' %}class='active'{% endif %}><a href="/contact">Contact Us</a></li>                  
+                  </ul>
+
+                  <a href="tel:+1-888-688-3464" class="call"><span class="glyphicon glyphicon-phone" aria-hidden="true"></span>+1 888 688 3464</a>
+            </div>
+      </div>
+</nav>

@@ -1,0 +1,288 @@
+#banner{
+    display: inline-block;
+    width: 100%;
+    padding: 200px 0;
+    background: url('/images/hero-1.jpg') no-repeat;
+    background-size: cover;
+    background-position: top;
+    // text-align: center;
+    position: relative;
+
+    &::after{
+        content: '';
+        background-color: rgba(0,0,0,.8);
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 1;
+    }
+
+    *{
+        color: $white;
+        position: relative;
+        z-index: 99;
+    }
+
+    h1{
+        font-size: 47px;
+        font-weight: 600;
+        margin: 0;
+        letter-spacing: 1.2px;
+    }
+
+    h2{
+        font-size: 33px;
+        font-weight: 500;
+        margin: 20px 0;
+        letter-spacing: 1.2px;
+        line-height: 1.6em;
+    }
+
+    h3{
+        font-size: 18px;
+    }
+
+    .green__button{
+        max-width: 185px;
+        margin-top: 50px;
+        text-align: center;
+    }
+
+}
+
+.wrap{
+    display: inline-block;
+    width: 100%;
+    padding: 75px 0;
+    text-align: center;
+
+    h3{
+        font-size: 28px;
+        color: $darkgray;
+        font-weight: medium;
+        margin: 0 0 25px;
+
+        img{
+            width: 75px;
+            vertical-align: text-bottom;
+        }
+    }
+
+    p{
+        color: $gray;
+        line-height: 1.6;
+        font-size: 15px;
+    }
+}
+
+.call-divider{
+    display: inline-block;
+    width: 100%;
+    padding: 50px 0;
+    background-color: $green;
+    text-align: center;
+
+    p,a {
+        color: #d0eed4;
+        margin: 0;
+        font-weight: 300;
+        font-size: 28px;
+    }
+
+    a{
+        color: $white;
+    }
+}
+
+#services{
+    background-color: #f4f4f4;
+}
+
+.home__container{
+    text-align: center;
+    padding: 75px 0;
+
+    .wrap{
+        padding: 0;
+    }
+
+    h3{
+        margin-top: 0;
+        margin-bottom: 50px;
+        font-size: 28px;
+
+        img{
+            width: 75px;
+            vertical-align: text-bottom;
+        }
+    }
+    .service{
+        display: inline-block;
+        width: auto;
+        padding: 0 40px;
+        text-align: left;
+        vertical-align: top;
+
+        &:first-child{
+            padding-left: 0;
+        }
+
+        &:last-child{
+            padding-right: 0;
+        }
+    }
+
+    h4{
+        color: $black;
+        font-size: 18px;
+    }
+
+    ul{
+        padding-left: 0;
+        list-style-type: none;
+
+        li{
+            color: $darkgray;
+            padding: 7px 0;
+            font-weight: 400;
+            font-size: 14px;
+        }
+
+    }
+}
+
+#sepcialities{
+    display: inline-block;
+    width: 100%;
+    background-color: #f4f4f4;
+    padding: 75px 0;
+
+    h3{
+        margin: 0 0 25px;
+        font-size: 28px;
+        color: $darkgray;
+    }
+
+    .ctas{
+        display: inline-block;
+        width: 100%;
+
+        .cta{
+            display: inline-block;
+            vertical-align: bottom;
+            width: 31%;
+            height: 50px;
+            line-height: 50px;
+            font-size: 15px;
+            font-weight: 500;
+            text-transform: uppercase;
+            text-align: center;
+            color: $white;
+            margin-right: 3%;
+            background-color: #41b5ff;
+            letter-spacing: 1.3px;
+
+            &:hover{
+                background-color: #ed6d5c!important;
+                text-decoration: none;
+            }
+
+            &:last-child{
+                margin-right: 0;
+                background-color: #44d25f;
+            }
+
+            &:first-child{
+                background-color: #ff8c3d;
+            }
+        }
+    }
+
+    .details{
+        display: inline-block;
+        font-size: 15px;
+        color: $gray;
+        font-weight: 500;
+        text-transform: uppercase;
+        text-align: center;
+        border-style: solid;
+        border-width: 2px;
+        border-radius: 30px;
+        border-color: rgb(236, 236, 236);
+        height: 56px;
+        line-height: 56px;
+        margin-top: 40px;
+        width: 200px;
+
+        i{
+            margin-left: 15px;
+        }
+
+        &:hover{
+            background-color: rgb(236, 236, 236);
+            text-decoration: none;
+        }
+    }
+
+}
+
+#when-was-it, #help{
+    padding: 50px 0;
+
+    h3{
+        margin: 0 0 30px;
+
+        img{
+            width: 75px;
+            vertical-align: text-bottom;
+        }
+    }
+
+    p{
+        color: #4f4f4f;
+        line-height: 1.8;
+        font-size: 15px;
+    }
+}
+
+#schedule-call{
+    background: url('/images/call-us.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 60px 0;
+    text-align: center;
+    position: relative;
+
+    &::after{
+        content: '';
+        background-color: rgba(0,0,0,.8);
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 1;
+    }
+
+    *{
+        color: $white;
+        position: relative;
+        z-index: 99;
+    }
+
+    h3{
+        font-weight: 500;
+        letter-spacing: 1px;
+    }
+
+    h6{
+        font-size: 18px;
+    }
+
+    p{
+        font-size: 15px;
+        margin: 40px 0 20px;
+    }
+}
