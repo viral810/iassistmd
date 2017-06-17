@@ -5,7 +5,6 @@
     background: url('/images/hero-1.jpg') no-repeat;
     background-size: cover;
     background-position: top;
-    // text-align: center;
     position: relative;
 
     &::after{
@@ -26,14 +25,14 @@
     }
 
     h1{
-        font-size: 47px;
+        font-size: 4.7rem;
         font-weight: 600;
         margin: 0;
         letter-spacing: 1.2px;
     }
 
     h2{
-        font-size: 33px;
+        font-size: 3.3rem;
         font-weight: 500;
         margin: 20px 0;
         letter-spacing: 1.2px;
@@ -41,7 +40,7 @@
     }
 
     h3{
-        font-size: 18px;
+        font-size: 1.8rem;
     }
 
     .green__button{
@@ -55,11 +54,11 @@
 .wrap{
     display: inline-block;
     width: 100%;
-    padding: 75px 0;
+    padding: 75px 20px;
     text-align: center;
 
     h3{
-        font-size: 28px;
+        font-size: 2.8rem;
         color: $darkgray;
         font-weight: medium;
         margin: 0 0 25px;
@@ -73,7 +72,7 @@
     p{
         color: $gray;
         line-height: 1.6;
-        font-size: 15px;
+        font-size: 1.5rem;
     }
 }
 
@@ -88,7 +87,7 @@
         color: #d0eed4;
         margin: 0;
         font-weight: 300;
-        font-size: 28px;
+        font-size: 2.8rem;
     }
 
     a{
@@ -102,7 +101,7 @@
 
 .home__container{
     text-align: center;
-    padding: 75px 0;
+    padding: 75px 20px;
 
     .wrap{
         padding: 0;
@@ -111,7 +110,7 @@
     h3{
         margin-top: 0;
         margin-bottom: 50px;
-        font-size: 28px;
+        font-size: 2.8rem;
 
         img{
             width: 75px;
@@ -136,7 +135,7 @@
 
     h4{
         color: $black;
-        font-size: 18px;
+        font-size: 1.8rem;
     }
 
     ul{
@@ -147,7 +146,7 @@
             color: $darkgray;
             padding: 7px 0;
             font-weight: 400;
-            font-size: 14px;
+            font-size: 1.4rem;
         }
 
     }
@@ -161,7 +160,7 @@
 
     h3{
         margin: 0 0 25px;
-        font-size: 28px;
+        font-size: 2.8rem;
         color: $darkgray;
     }
 
@@ -175,7 +174,7 @@
             width: 31%;
             height: 50px;
             line-height: 50px;
-            font-size: 15px;
+            font-size: 1.5rem;
             font-weight: 500;
             text-transform: uppercase;
             text-align: center;
@@ -202,7 +201,7 @@
 
     .details{
         display: inline-block;
-        font-size: 15px;
+        font-size: 1.5rem;
         color: $gray;
         font-weight: 500;
         text-transform: uppercase;
@@ -229,7 +228,7 @@
 }
 
 #when-was-it, #help{
-    padding: 50px 0;
+    padding: 50px 20px;
 
     h3{
         margin: 0 0 30px;
@@ -243,7 +242,7 @@
     p{
         color: #4f4f4f;
         line-height: 1.8;
-        font-size: 15px;
+        font-size: 1.5rem;
     }
 }
 
@@ -251,7 +250,7 @@
     background: url('/images/call-us.jpg') no-repeat;
     background-size: cover;
     background-position: center;
-    padding: 60px 0;
+    padding: 60px 20px;
     text-align: center;
     position: relative;
 
@@ -278,11 +277,47 @@
     }
 
     h6{
-        font-size: 18px;
+        font-size: 1.8rem;
     }
 
     p{
-        font-size: 15px;
+        font-size: 1.5rem;
         margin: 40px 0 20px;
+    }
+}
+
+@media all and (max-width: 767px) {
+
+    #banner{
+        padding: 100px 0;
+
+        h1{
+            font-size: 2.7rem;
+
+            img{
+                display: none;
+            }
+        }
+
+        h2{
+            font-size: 2rem;
+        }
+    }
+
+    .home__container .service{
+        width: 100%;
+
+        &:first-child{
+            padding-left: 40px;
+        }
+    }
+
+    #schedule-call h3{
+        font-size: 2rem;
+    }
+
+    #sepcialities .ctas .cta{
+        width: 100%;
+        margin-bottom: 10px;
     }
 }
