@@ -1,6 +1,7 @@
 ---
 title: About Us
-description: We specialize in practice management, revenue cycle optimization, and private practice business support
+description: We specialize in practice management, revenue cycle optimization, and
+  private practice business support
 layout: inner_page
 ---
 

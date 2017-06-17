@@ -1,6 +1,7 @@
 ---
 title: Consultation
-description: Choosing an electronic medical records solution can be a frustrating process. Consultation will help.
+description: Choosing an electronic medical records solution can be a frustrating
+  process. Consultation will help.
 layout: inner_page
 ---
 
