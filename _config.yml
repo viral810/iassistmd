@@ -8,13 +8,17 @@ collections:
   uploads:
     title: Uploads
     output: true
-email: your-email@domain.com
+phone: 888-688-3464
+email: info@iassistmd.com
+address: 463 Pooler Parkway, Suit 159, <br />Pooler, GA 31322
 description: 'We specialize in practice management, revenue cycle optimization, and
   private practice business support
 
 '
 baseurl: ''
 url: www.iassistmd.com
+facebook:
+  url: https://www.facebook.com/iASSISTMD/
 twitter_username: jekyllrb
 github_username: jekyll
 sass:
