@@ -14,7 +14,10 @@ If you're excited by the prospect of a "no headache" billing service that still 
 - Real-time access – iClaim is web-based, so you have 24/7 access to your data from any computer with an internet connection. That means you can view the real-time status of every aspect of your billing cycle anytime, anywhere.​
 - Better reporting for better decisions – With iClaim, you can access hundreds of reports in real-time with the touch of a button. That gives you ultimate control, and the data you need to make the right decisions for your practice.​
 
-So free yourself and your staff to focus on patient care, and let us and iClaim handle the rest.
+![How our “no headache” billing service benefits you](/images/Stress-Doctor.jpg)
+![How our “no headache” billing service benefits you](/images/stress-3.jpg)
+
+#### So free yourself and your staff to focus on patient care, and let us and iClaim handle the rest.
 
 - Faster Reimbursement
 - Lower Claims Rejections

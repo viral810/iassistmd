@@ -11,6 +11,8 @@ layout: inner_page
 
 You'd like to take advantage of current incentives, but don't want to get stuck with a system that ignores your unique office workflow.
 
+![Reduce Paper, Streamline Patient Encounters with EHR/EMR System](/images/doctor-tablet.jpg)
+
 Well, with EMRx you can not only cash in on early adoption incentives, you can also implement a customized solution that will parallel the current workflow of your practice.
 
 Here's why EMRx is the right system for you:
