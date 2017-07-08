@@ -8,9 +8,9 @@ layout: inner_page
 
 If you're excited by the prospect of a "no headache" billing service that still gives you full control of your patient records, we've got the solution you're looking for.
 
-**How our "no headache" billing service benefits you:**
+**How our “no headache” billing service benefits you:**
 
-- Get your claims paid fast – Because most of our claims are paid on first submission, you'll get the funds more quickly. Also, our billing service has one of the lowest rejection rates in the industry, so you'll have fewer unpaid claims.​
+- Get your claims paid fast – Our billing services has one of the lowest rejection rate, because most of our claims are paid on first submission, so you will get the funds more quickly.​
 - Real-time access – iClaim is web-based, so you have 24/7 access to your data from any computer with an internet connection. That means you can view the real-time status of every aspect of your billing cycle anytime, anywhere.​
 - Better reporting for better decisions – With iClaim, you can access hundreds of reports in real-time with the touch of a button. That gives you ultimate control, and the data you need to make the right decisions for your practice.​
 
@@ -50,7 +50,7 @@ Our AutoCard marketing service will allow you to send personalized postcards, gr
 
 You can increase appointments and build upon the valuable relationships you have with your patients. We will set up campaigns based on your needs with a wide variety of options: flu shot reminders, back-to-school physicals, yearly checkup reminders, and even follow-up cards to ensure your patients continue to choose you for their healthcare needs.Set your marketing on autopilot, and let our
 
-AutoCard service increase patient satisfaction and improve your bottom line.
+Auto card service increase patient satisfaction and improve your bottom line.
 
 - Automated Campaigns
 - Increase Patient Satisfaction

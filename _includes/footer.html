@@ -1,11 +1,21 @@
+{% if page.layout != 'home' %}
+<div class="call-divider">
+      <div class="container">
+        <p>Free Practice Analysis and Consultation, Call: <a href="tel:+1-888-688-3464">{{ site.phone }}</a></p>
+      </div>
+</div>
+{% endif %}
+
 <footer id="footer">
     <div class="top-footer">
         <div class="container">
             <a href="/" id="logo"><img src="/images/logo.png" alt="iAssistMD" /></a>
-            <h6>Find Us</h6>
-            <a href="https://goo.gl/maps/WwXXYdf4oQs" target="_blank">{{ site.address }}</a>
+            <h6>From our Practice Analysis and Consultation We will show you how to:</h6>
+            <p>Improve Patient Relations, Reduce Waste, Streamline your Practice, Improve Efficiency, Increase your Bottom Line </p>
+            <!--<a href="https://goo.gl/maps/WwXXYdf4oQs" target="_blank">{{ site.address }}</a>-->
             <hr />
             <a href="tel:{{ site.phone }}" class="call"><span class="glyphicon glyphicon-phone" aria-hidden="true"></span>{{ site.phone }}</a>
+            <a href="/contact/" class="call"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>Send us an email</a>
         </div>
     </div>
     <div class="bottom-footer">

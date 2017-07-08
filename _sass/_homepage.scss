@@ -29,6 +29,10 @@
         font-weight: 600;
         margin: 0;
         letter-spacing: 1.2px;
+
+        span{
+            font-family: 'Open Sans';
+        }
     }
 
     h2{
@@ -120,7 +124,7 @@
     .service{
         display: inline-block;
         width: auto;
-        padding: 0 40px;
+        padding: 0 25px;
         text-align: left;
         vertical-align: top;
 
@@ -134,7 +138,7 @@
     }
 
     h4{
-        color: $black;
+        color: $blue;
         font-size: 1.8rem;
     }
 
@@ -242,7 +246,7 @@
     p{
         color: #4f4f4f;
         line-height: 1.8;
-        font-size: 1.5rem;
+        font-size: 1.7rem;
     }
 }
 

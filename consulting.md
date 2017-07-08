@@ -38,3 +38,13 @@ Once the audit is performed, you'll be given a detailed report and a consultatio
 - Detailed Reports
 - Personal, Expert Review
 - Implement Corrective Actions
+
+### Credentialing
+
+- Credentialing
+- Meaningful Use Systems
+- Contract Negotiating
+- Auto Appointment Reminders
+- Transcription
+- On-Site Consulting
+- Auto Deposit Solutions
